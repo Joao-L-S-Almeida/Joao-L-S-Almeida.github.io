@@ -7,6 +7,8 @@ featured_image = '/images/images_6.jpg'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+[outputs]
+  home = ['html', 'rss']
 
 #[menu]
 #[[menu.main]]

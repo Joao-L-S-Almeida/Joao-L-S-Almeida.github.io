@@ -9,10 +9,9 @@ featured_image = '/images/images_6.jpg'
     dir = ':cacheDir/images'
 [outputs]
   home = ['html', 'rss']
-
-#[menu]
-#[[menu.main]]
-#    identifier = 'blog'
-#    name = 'Blog'
-#    url = '/posts/'
-#    weight = 2
+[menu]
+[[menu.main]]
+    identifier = 'rss'
+    name = 'RSS'
+    url = 'https://joao-l-s-almeida.github.io/index.xml'
+    weight = 2

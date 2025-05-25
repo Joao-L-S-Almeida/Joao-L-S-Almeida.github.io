@@ -4,6 +4,10 @@ title = 'My Archive'
 theme = 'ananke'
 featured_image = '/images/images_6.jpg' 
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 #[menu]
 #[[menu.main]]
 #    identifier = 'blog'

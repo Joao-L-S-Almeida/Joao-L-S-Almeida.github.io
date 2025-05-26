@@ -14,4 +14,9 @@ featured_image = '/images/images_6.jpg'
     identifier = 'rss'
     name = 'RSS'
     url = 'https://joao-l-s-almeida.github.io/index.xml'
+    weight = 1
+[[menu.main]]
+    identifier = 'posts'
+    name = "Posts"
+    url = "/posts/"
     weight = 2

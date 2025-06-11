@@ -18,7 +18,7 @@ Since I start using [Fish](https://fishshell.com/) I always feel that something 
 
 # Zoxide
 
-The classical `cd` is excellent, but it has an inconvenience: it needs you remember the complete path for a directory. If the command is not memorized by Fish, for example, you will need at least to iteratively complete the path, which can be an annoying task when you need to to that multiple times per day. [Zoxide](https://crates.io/crates/zoxide) (in combination with FZF) comes to alleviate it by helping you to replace the long path with a shortcut or nickname. At the first time, you can use it in the same way as `cd`: 
+The classical `cd` is excellent, but it has an inconvenience: it needs you remember the complete path for a directory. If the command is not memorized by Fish, for example, you will need at least to iteratively complete the path, which can be annoying when repeated multiple times per day. [Zoxide](https://crates.io/crates/zoxide) (in combination with FZF) comes to alleviate it by helping you to replace the long path with a shortcut or nickname. At the first time, you can use it in the same way as `cd`: 
 ```
 z ~/dir/subdir/project
 ```
